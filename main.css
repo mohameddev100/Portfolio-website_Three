@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body
+  {
+    background: #081b29;
+    color:#ededed;
+  }
+  .header
+  {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 10%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index:100;
+  }
+  .logo
+  {
+    font-size: 40px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .nav a{
+    font-size: 18px;
+    color:#ededed;
+    text-decoration: none;
+    margin-left: 35px;
+    transition: 0.8s;
+  }
+  .nav a:hover,
+  .nav a.active{
+    color:#00abf0;
+  }
+  .section
+  {
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    margin-top: 50px;
+  }
+  .content
+  {
+    max-width:500px;
+  }
+  .content h1
+  {
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .content h1 span
+  {
+    color: #00abf0;
+  }
+  .content h3
+  {
+    color: #00abf0;
+    margin-bottom: 10px;
+  }
+  .content p
+  {
+    line-height: 1.7;
+    color: #ddd;
+    margin-bottom: 30px;
+  }
+  .btn-box
+  {
+    background: #00abf0;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+    width: fit-content;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: 0.5s;
+  }
+  .btn-box:hover
+  {
+    background: transparent;
+    border: 1px solid #ccc;
+  }
+  img
+  {
+    width: 60%;
+    border-radius: 10px;
+    margin-left: 45%;
+  }
+  .title
+  {
+    font-size: 45px;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+  }
+  .product
+  {
+    padding: 0 10%;
+  }
+  .product .container
+  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  .product .product-box
+  {
+    width: 250px;
+    padding-bottom: 20px;
+  }
+  .product .product-box h3
+  {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 19px;
+  }
+  .product .product-box p
+  {
+    text-align: center;
+    color: #ddd;
+  }
+  .product img
+  {
+    width: 100%;
+    margin: auto;
+  }
